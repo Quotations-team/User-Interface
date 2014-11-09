@@ -17,7 +17,6 @@ The diagram below shows the user navigation between views:
 
 ![View navigation](quotes_funcspec_app_screens.png)
 
-
 #### Start / Splashscreen
 
 * Proposal 1-A:
@@ -33,6 +32,13 @@ Upon starting the application for the first time a static logo splash screen app
 ![start 1B](http://www.parature.com/wp-content/uploads/2012/01/customerservicequotations.jpg)
 
 
+#### Search
 
+Search view allows the user to enter one (or more?) search keywords. The app searches the entire quote database for matching quotes (any keyword = logical OR) (all keywords = logical AND) and displays them as a list. 
 
+##### Questions
+* do we allow more than a single search keyword?
+* do we AND or OR multiple keywords
+* is the list scrollable if more quotes than fits on the screen?
 
+![search](Project_Screenshot_SearchActivity_11-7-14.png)
