@@ -34,7 +34,7 @@ Upon starting the application for the first time a static logo splash screen app
 
 #### Search
 
-Search view allows the user to enter one (or more?) search keywords. The app searches the entire quote database for matching quotes (any keyword = logical OR) (all keywords = logical AND) and displays them as a list. 
+Search view allows the user to enter one or more search keywords. The app searches the entire quote database for matching quotes (all keywords = logical AND) and displays them as a list. 
 
 ##### Questions
 * do we allow more than a single search keyword?
@@ -42,3 +42,10 @@ Search view allows the user to enter one (or more?) search keywords. The app sea
 * is the list scrollable if more quotes than fits on the screen?
 
 ![search](Project_Screenshot_SearchActivity_11-7-14.png)
+
+#### Category
+
+The Category option allows the user to select from different categories. When the user chooses a certain category, the scrollable list of quotes appears on the screen.
+
+
+
